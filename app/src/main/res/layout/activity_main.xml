@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fivethingsfinal.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+
+
+        <ImageView
+            android:src="@drawable/picture1"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageView1"
+            android:layout_below="@+id/textView1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Why so many people around the world choose iPhone?"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You may notice the fact that now, the number of iphone users around us, I have to say, is huge, and this number is still increasing in an amazing speed., and from this distribution chart, it is very clear that iphone win the most market in china. Iphone create a miracle in communicating industry, not just in china, but around the world. But why iphone? "
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/imageView1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:src="@drawable/picture2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageView2"
+            android:layout_below="@+id/textView2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Well, if I ask iphone users why they choose iphone, most will mention the fast reaction speed, smooth and stable operation. In professional aspect, most smart phone systems are developed by JAVA language, take android system for example, system design process is simple, but there is an obvious shortcoming of the system: even though a software is closed by user, JAVA language still save it, which would waste a large amount of saving space, so it is not surprising at all that sometimes the reaction speed is slow or there is even no reaction when touching screen, because. As for iphone, apart from JAVA language, other program language such as C, C++ and C#(C sharp) was also added in the system, which perfectly solve the problem mentioned in android system."
+            android:textSize="20dp"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/imageView2"
+            android:textColor="#000000"
+            />
+        <ImageView
+            android:src="@drawable/picture3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageView3"
+            android:layout_below="@+id/textView3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next difference is the touching screen. The technology that Apple Company applied on screen display is called retina display. As jobes said, 300 is the limitation for human being’s retina, but the resolution rate apple company used on iphone is, 326 pixels per inch, which means, people cannot tell one single pixel from anther using their eyes. As a result, by using retina display, the image quality could be significantly improved, and here is the picture shows the difference. Picture on the left hand side was the retina display image and picture on the right hand side is the output image of ordinary resolution rate. "
+            android:textSize="20dp"
+            android:id="@+id/textView4"
+            android:textColor="#000000"
+            android:layout_below="@+id/imageView3"
+             />
+        <ImageView
+            android:src="@drawable/picture4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageView4"
+            android:layout_below="@+id/textView4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When choosing smartphone, security need to be considered too, after all, no one want their personal information being leaked. And iphone performs very well in this area. For iphone, as we know, apple company controlled nearly all the hardware and software program code. For hacker, without source code, the closed development environment makes it very hard to crack an iphone. In this way, iphone users’ personal information is well-protected. It is true that compared android system, which is designed in an open environment, IOS system is much safer, however, recently, crisis and doubt appeared. FBI announced that they successfully tracked an inspector of Sam Bernardino shooting’s iphone5c ."
+            android:id="@+id/safety"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_below="@+id/imageView4"/>
+        <ImageView
+            android:src="@drawable/picture5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageView5"
+            android:layout_below="@+id/safety"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The fourth part is the detail design. just as the image shown, in iPhone rabbit is used as fast while turtle stands for slow, isn't that cute?"
+            android:id="@+id/design"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_below="@+id/imageView5"
+            />
+        <ImageView
+            android:src="@drawable/picture6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView6"
+            android:layout_below="@+id/design"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The fifth, as well as the last point is camera. Camera on iPhone consists of more than 200 components and some is even as thin as hair."
+            android:id="@+id/camera"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_below="@+id/imageView6"
+            />
+        <ImageView
+            android:src="@drawable/picture7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView7"
+            android:layout_below="@+id/camera"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anyway, whether choose iPhone or not is totally your opinion!"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/imageView7"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nHow do you feel about the article(choose one or more)?"
+            android:textColor="#000000"
+            android:id="@+id/textView6"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView5"/>
+        <CheckBox
+            android:id="@+id/notify_me_checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="it's an interesting point,maybe that's why I choose iPhone"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_below="@+id/textView6"
+            />
+        <CheckBox
+            android:id="@+id/notify_me_checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="it's a little bit hard to understand"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_below="@+id/notify_me_checkbox1"
+            />
+        <CheckBox
+            android:id="@+id/notify_me_checkbox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="it's a good article, but I still prefer android system"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_below="@+id/notify_me_checkbox2"
+            />
+        <CheckBox
+            android:id="@+id/notify_me_checkbox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I have no idea"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_below="@+id/notify_me_checkbox3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nrank me(1 to 10)"
+            android:textColor="#000000"
+            android:id="@+id/textView7"
+            android:textSize="20dp"
+            android:layout_below="@+id/notify_me_checkbox4"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="decrement"
+                android:text="-"
+                android:id="@+id/button1"
+                android:layout_below="@+id/textView7"/>
+
+            <TextView
+                android:id="@+id/quantity_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="0"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:onClick="increment"
+                android:text="+" />
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
+
